@@ -70,3 +70,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# JetBrains Rider関連の設定は(入れてもいいのもあるが)分かりやすさのため全部外す
+.idea/
+
+# サードパーティのアセットは特定のフォルダに入れて隠す
+/[Aa]ssets/ThirdParty.meta
+/[Aa]ssets/ThirdParty/
+
+# 載せるかもしれないがWIPな部分は隠す
+/[Aa]ssets/Baxter_WIP.meta
+/[Aa]ssets/Baxter_WIP/
+
+
