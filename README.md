@@ -23,7 +23,7 @@ https://booth.pm/ja/items/1065089
 
 そのため、とくにサンプルシーンで `Item` オブジェクトの `HumanoidAnimationList` コンポーネントについて、AnimationClipが未割り当てになります。(下記は割当済みの例です)
 
-
+![AnimationClipの割当が必要なところ](./will_missing_assets.png)
 
 手元からワールドをアップロードする場合、少なくともこの部分に何かしらのモーションデータを割り当ててからアップロードを試して下さい。
 
